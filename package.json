@@ -1,0 +1,16 @@
+{
+  "name": "mealcarta",
+  "version": "1.0.0",
+  "description": "MealCarta - Enciclopedia Culinaria Mundial & Atlas Gastronómico (Estilo Encarta Neo)",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"magenta,cyan\" \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix server && npm run build --prefix client",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
