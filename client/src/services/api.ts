@@ -1,7 +1,10 @@
 import { Recipe, CountryPin, ShoppingListResult, CommunityRequest, User } from '../types';
 
-const viteEnv = (import.meta as any).env?.VITE_API_URL;
-const API_BASE = viteEnv ? `${viteEnv}/api` : '/api';
+
+const VITE_URL = (import.meta as any).env?.VITE_API_URL;
+
+// Si existe VITE_URL usa Render, de lo contrario cae a '/api'
+const API_BASE = VITE_URL ? `${VITE_URL}/api` : '/api';
 
 
 function getAuthHeaders(): HeadersInit {
