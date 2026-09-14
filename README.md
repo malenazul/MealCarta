@@ -1,4 +1,9 @@
+Aplicación en desarrollo
+
 # 🌌 MealCarta — Atlas Culinario Mundial & Enciclopedia Gastronómica
+
+Ingresar aquí para ver la aplicación: https://mealcarta.netlify.app/
+
 
 > **Edición Multimedia Encarta Neo**: Inspirada en la legendaria **Microsoft Encarta**, reimaginada con una estética **retro-futurista minimalista y elegante** con acentos en violeta eléctrico (`#8B5CF6`) y turquesa neón (`#06B6D4`).
 
