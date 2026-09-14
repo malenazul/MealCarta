@@ -1,9 +1,9 @@
 import { Recipe, CountryPin, ShoppingListResult, CommunityRequest, User } from '../types';
 
-const API_BASE = import.meta.env.VITE_API_URL 
-  ? `${import.meta.env.VITE_API_URL}/api` 
-  : '/api';
-  
+const viteEnv = (import.meta as any).env?.VITE_API_URL;
+const API_BASE = viteEnv ? `${viteEnv}/api` : '/api';
+
+
 function getAuthHeaders(): HeadersInit {
   const token = localStorage.getItem('mealcarta_token');
   const headers: HeadersInit = {
