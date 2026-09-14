@@ -1,4 +1,4 @@
-Aplicación en desarrollo
+Aplicación demo propia en etapas finales de desarrollo
 
 # 🌌 MealCarta — Atlas Culinario Mundial & Enciclopedia Gastronómica
 
