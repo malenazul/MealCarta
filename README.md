@@ -1,4 +1,4 @@
-Aplicación demo propia en etapas finales de desarrollo
+Aplicación DEMO propia en etapas avanzadas de desarrollo
 
 # 🌌 MealCarta — Atlas Culinario Mundial & Enciclopedia Gastronómica
 
