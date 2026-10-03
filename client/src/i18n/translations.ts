@@ -32,7 +32,7 @@ export const translations = {
     sign_out: 'Cerrar sesión',
 
     // Navigation
-    nav_atlas: 'Atlas Culinario',
+    nav_atlas: 'Atlas Gastronómico',
     nav_articles: 'Artículos',
     nav_nutrition: 'Lab Nutricional',
     nav_shopping: 'Lista de Compras',
@@ -147,7 +147,7 @@ export const translations = {
     notebook_desc: 'Tus artículos y preparaciones gastronómicas favoritas archivadas para acceder rápidamente desde tu celular o computadora.',
     empty_notebook_title: 'Tu cuaderno está en blanco',
     empty_notebook_desc: 'Explora las ciudades del Atlas o el catálogo de recetas y presiona el ícono del cuaderno para guardar tus platos preferidos aquí.',
-    go_to_atlas: 'Ir al Atlas Culinario',
+    go_to_atlas: 'Ir al Atlas Gastronómico',
 
     // Auth
     auth_login_title: 'Acceso al Registro Encarta',

@@ -45,7 +45,7 @@ export const FavoritesView: React.FC = () => {
             className="px-4 py-2 rounded-xl bg-gradient-to-r from-violet-600 to-cyan-500 text-white text-xs font-semibold shadow-glow-cyan inline-flex items-center space-x-2"
           >
             <Compass className="w-4 h-4" />
-            <span>Ir al Atlas Culinario</span>
+            <span>Ir al Atlas Gastronómico</span>
           </button>
         </div>
       ) : (

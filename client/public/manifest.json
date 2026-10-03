@@ -1,9 +1,9 @@
 {
   "short_name": "MealCarta",
-  "name": "MealCarta - Atlas Culinario Mundial",
+  "name": "MealCarta - Atlas Gastronómico",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/yoga_log.jpg",
       "type": "image/svg+xml",
       "sizes": "192x192 512x512"
     }

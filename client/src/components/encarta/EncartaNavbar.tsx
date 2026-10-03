@@ -38,7 +38,7 @@ export const EncartaNavbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { id: 'atlas', label: 'Atlas Culinario', icon: Compass },
+    { id: 'atlas', label: 'Atlas Gastronómico', icon: Compass },
     { id: 'articles', label: 'Artículos', icon: BookOpen },
     { id: 'nutrition', label: 'Lab Nutricional', icon: Activity, badge: banquet.length > 0 ? banquet.length : undefined },
     { id: 'shopping', label: 'Lista de Compras', icon: ShoppingCart, badge: banquet.length > 0 ? banquet.length : undefined },
